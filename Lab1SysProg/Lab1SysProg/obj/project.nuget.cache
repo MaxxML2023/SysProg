@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "b8SLCjUtypI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\06650\\source\\repos\\Lab1SysProg\\Lab1SysProg\\Lab1SysProg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\06650\\.nuget\\packages\\ecocore\\7.2.0.16432\\ecocore.7.2.0.16432.nupkg.sha512",
+    "C:\\Users\\06650\\.nuget\\packages\\ecowindowsforms\\7.2.0.16432\\ecowindowsforms.7.2.0.16432.nupkg.sha512",
+    "C:\\Users\\06650\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EcoCore 7.2.0.16432' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EcoCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EcoWindowsForms 7.2.0.16432' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EcoWindowsForms",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

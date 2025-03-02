@@ -1,0 +1,56 @@
+﻿using System;
+using System.Diagnostics;
+using System.Threading;
+
+class Lab1Part2
+{
+    static void ThreadTask(object obj)
+    {
+        (int threadId, ThreadPriority priority) = ((int, ThreadPriority))obj;
+        Stopwatch stopwatch = Stopwatch.StartNew();
+        long count = 0;
+
+        Console.WriteLine($"Потік {threadId} (Пріоритет: {priority}): стартував");
+
+        while (stopwatch.ElapsedMilliseconds < 5000) // Працювати 5 секунд
+        {
+            count++;
+            if (count % 10000000 == 0) // Виводити стан потоку кожні 10 млн ітерацій
+            {
+                Console.WriteLine($"Потік {threadId} (Пріоритет: {priority}): працює...");
+            }
+        }
+        Console.WriteLine($"Потік {threadId} (Пріоритет: {priority}): завершено, виконано ітерацій: {count}");
+    }
+
+    static void RunThreads(ThreadPriority[] priorities)
+    {
+        Thread[] threads = new Thread[priorities.Length];
+        for (int i = 0; i < priorities.Length; i++)
+        {
+            threads[i] = new Thread(ThreadTask);
+            threads[i].Priority = priorities[i];
+            threads[i].Start((i + 1, priorities[i]));
+        }
+        foreach (var thread in threads)
+        {
+            thread.Join();
+        }
+    }
+
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+        Console.WriteLine("Варіант 1: Три потоки з різними пріоритетами");
+        ThreadPriority[] prioritiesV1 = { ThreadPriority.Normal, ThreadPriority.AboveNormal, ThreadPriority.Highest };
+        RunThreads(prioritiesV1);
+
+        Console.WriteLine("Варіант 3: Чотири потоки з різними пріоритетами");
+        ThreadPriority[] prioritiesV3 = { ThreadPriority.Lowest, ThreadPriority.AboveNormal, ThreadPriority.BelowNormal, ThreadPriority.Highest };
+        RunThreads(prioritiesV3);
+
+        Console.WriteLine("Натисніть Enter для виходу...");
+        Console.ReadLine();
+    }
+}

@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Lab1SysProg/1.0.0": {
+        "dependencies": {
+          "EcoWindowsForms": "7.2.0.16432",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0"
+        },
+        "runtime": {
+          "Lab1SysProg.dll": {}
+        }
+      },
+      "EcoCore/7.2.0.16432": {
+        "runtime": {
+          "lib/net40/MDriven.Net.Http.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.16432"
+          }
+        }
+      },
+      "EcoWindowsForms/7.2.0.16432": {
+        "dependencies": {
+          "EcoCore": "7.2.0.16432"
+        },
+        "runtime": {
+          "lib/net40/Eco.Windows.Forms.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.16432"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.21.0": {}
+    }
+  },
+  "libraries": {
+    "Lab1SysProg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcoCore/7.2.0.16432": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LT177vOMiqQvt/H7UwVvBqvn69vCEBoU3KBGFZO+A0KUMVWFaSBKaRFH1w4s/9BPV4ASVylRxA0C24XLmQg+cQ==",
+      "path": "ecocore/7.2.0.16432",
+      "hashPath": "ecocore.7.2.0.16432.nupkg.sha512"
+    },
+    "EcoWindowsForms/7.2.0.16432": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uyhNyel2e5htRybPS2yEnQTxk9YRk/mXm5USORSZT9X4cxE3v3L9ErfexY5nVV5da1xifcVXjD2MXAfms0hGUg==",
+      "path": "ecowindowsforms/7.2.0.16432",
+      "hashPath": "ecowindowsforms.7.2.0.16432.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8NudeHOE56YsY59HYY89akRMup8Ho+7Y3cADTGjajjWroXVU9RQai2nA6PfteB8AuzmRHZ5NZQB2BnWhQEul5g==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.21.0",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+    }
+  }
+}
