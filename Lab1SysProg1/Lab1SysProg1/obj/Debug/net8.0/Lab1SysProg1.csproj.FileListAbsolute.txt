@@ -1,0 +1,15 @@
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\bin\Debug\net8.0\Lab1SysProg1.exe
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\bin\Debug\net8.0\Lab1SysProg1.deps.json
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\bin\Debug\net8.0\Lab1SysProg1.runtimeconfig.json
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\bin\Debug\net8.0\Lab1SysProg1.dll
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\bin\Debug\net8.0\Lab1SysProg1.pdb
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.AssemblyInfoInputs.cache
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.AssemblyInfo.cs
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.csproj.CoreCompileInputs.cache
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.sourcelink.json
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.dll
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\refint\Lab1SysProg1.dll
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.pdb
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\Lab1SysProg1.genruntimeconfig.cache
+C:\Users\06650\source\repos\Lab1SysProg1\Lab1SysProg1\obj\Debug\net8.0\ref\Lab1SysProg1.dll
